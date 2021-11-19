@@ -1,5 +1,6 @@
 # timeline
 ## A flexible timeline designed for plotree project but usable in any cases. 
+### based on https://github.com/alangrafu/timeknots 
 
 simply add  before closing head.
 ```<script src="timeline/d3.v2.min.js" type="application/javascript"></script>
