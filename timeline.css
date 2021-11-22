@@ -7,7 +7,7 @@
   --stroke-width: 6;
   --popup-top: 250px;
   --popup-background: var(--background-color);
-  --tooltip-top: 200px;
+  --tooltip-top: 120px;
   --font-fam: "Poppins";
   --popup-font-size: 15px;
   --popup-date-size: 18px;
@@ -18,7 +18,7 @@
   font: 18px "Poppins" !important;
   font-weight: 300;
   text-rendering: optimizeLegibility;
-  margin-left: 20px;
+  margin-left: 50% !important;
   position: absolute;
   z-index: 99999;
   transform: translateX(-50%);

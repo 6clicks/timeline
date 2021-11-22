@@ -344,7 +344,7 @@ var TimeKnots = {
 
     svg.on("mousemove", function () {
       tipPixels = parseInt(tip.style("height").replace("px", ""));
-      return tip.style("top", (d3.event.pageY - tipPixels - margin - 30) + "px").style("left", (d3.event.pageX - 68) + "px");
+      return tip.style("top", (d3.event.pageY - tipPixels - margin - 30) + "px").style("left", (d3.event.pageX - 430) + "px");
     })
       .on("mouseout", function () { return tip.style("opacity", 0).style("top", "0px").style("left", "0px"); });
 
