@@ -55,6 +55,7 @@ TimeKnots.draw("#timeline", potreedates, {
     xpositionmille: "238", // time line text position 
     anneeUn: "1 AD",
     xpositionun: "558",  // time line text position 
+    toolpos: "435px",
 });
 
 document.querySelector('#timeline').style.width = "900px";

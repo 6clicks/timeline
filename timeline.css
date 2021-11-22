@@ -13,7 +13,7 @@
   --popup-date-size: 18px;
 }
 
-body {
+#timeline {
   background-color: var(--background-color);
   font: 18px "Poppins" !important;
   font-weight: 300;
