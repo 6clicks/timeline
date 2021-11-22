@@ -14,11 +14,15 @@
 }
 
 #timeline {
-  background-color: var(--background-color);
+  background-color: transparent;
   font: 18px "Poppins" !important;
   font-weight: 300;
   text-rendering: optimizeLegibility;
   margin-left: 20px;
+  position: absolute;
+  z-index: 99999;
+  transform: translateX(-50%);
+  position: absolute;
 }
 
 text {
