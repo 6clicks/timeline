@@ -22,6 +22,7 @@ var TimeKnots = {
       xpositionmille: "238",
       anneeUn: "er",
       xpositionun: "558",
+      toolpos: "420",
     };
 
     //default configuration overrid
@@ -344,7 +345,8 @@ var TimeKnots = {
 
     svg.on("mousemove", function () {
       tipPixels = parseInt(tip.style("height").replace("px", ""));
-      return tip.style("top", (d3.event.pageY - tipPixels - margin - 30) + "px").style("left", (d3.event.pageX - 68) + "px");
+      let postool = cfg.toolpos;
+      return tip.style("top", (d3.event.pageY - tipPixels - margin - 30) + "px").style("left", (d3.event.pageX - postool) + "px");
     })
       .on("mouseout", function () { return tip.style("opacity", 0).style("top", "0px").style("left", "0px"); });
 
