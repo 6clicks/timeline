@@ -15,9 +15,7 @@
 }
 
 #timeline {
-  position: absolute;
-  z-index: 99999;
-  top:var(--timeline-top);
+  background-color: var(--background-color);
   font: 18px "Poppins" !important;
   font-weight: 300;
   text-rendering: optimizeLegibility;
